@@ -13,8 +13,8 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
     // Aquí debes configurar los detalles de tu base de datos
     $host = 'localhost';
     $user = 'root';
-    $pass = 'password';
-    $db = 'database';
+    $pass = 'root';
+    $db = 'users';
 
     $conn = new mysqli($host, $user, $pass, $db);
 
